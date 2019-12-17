@@ -1,0 +1,49 @@
+{
+  "name": "alcides",
+  "version": "1.0.0",
+  "description": "Aplicación web responsiva, construida con el **stack MEVN** (Mongodb, Express, Vue.js Node.js) esta aplicación se basa en listar, crear, editar y eliminar usarios",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack:watch": "webpack -w"
+  },
+  "repository": {
+    "type": "git"
+    
+  },
+  "keywords": [],
+  "author": "ALCIDES",
+  "license": "ISC",
+  "bugs": {
+  
+  },
+  
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jspdf": "^1.5.3",
+    "jspdf-autotable": "^3.2.11",
+    "moment": "^2.22.1",
+    "mongoose": "^5.0.16",
+    "morgan": "^1.9.0",
+    "nodemailer": "^6.4.2",
+    "vue-pdf": "^4.0.7",
+    "vue2-datepicker": "^1.9.6"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "vue": "^2.5.16",
+    "vue-axios": "^2.1.1",
+    "vue-loader": "^14.2.2",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
+}
